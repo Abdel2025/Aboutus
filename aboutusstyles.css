@@ -58,7 +58,7 @@ nav {
 
 .about-section {
 	width: 100%;
-	height:85vh;
+	height:90vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -76,12 +76,12 @@ nav {
 	}
 
 .about-section-content h1 {
-	font-size: 70px;
+	font-size: 60px;
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 250px;
 }
 
 .about-section-content p {
@@ -98,7 +98,7 @@ nav {
 	text-decoration: none;
 	color: #fff;
 	padding: 12px 30px;
-	background: #f44336;
+	background: #4F9BE2;
 	cursor: pointer;
 	align-items: center;
 	font-family: 'Roboto', sans-serif;
@@ -134,7 +134,6 @@ h1 {
 
 .column {
   display: inline-block;
-  
   margin-bottom: 16px;
   padding: 0 8px 10px;
   
@@ -156,8 +155,9 @@ h1 {
 	margin-bottom: 10px;
 }
 
-.container h3{
+.container h4{
 	margin-bottom: 20px;
+	color: #8E8E8E;
 }
 
 .container p {
@@ -171,7 +171,7 @@ h1 {
 	text-decoration: none;
 	color: #fff;
 	padding: 12px 30px;
-	background: #f44336;
+	background: #4F9BE2;
 	cursor: pointer;
 	align-items: center;
 	font-family: 'Roboto', sans-serif;
@@ -183,18 +183,122 @@ h1 {
 	width: 100%;
 }
 
+
+/* ----------------- STATISTICS SECTION ---------------- */
+
 .rect {
 	padding: 30px;
 	text-align: center;
-	background-color: #474e5d;
+	background-color: #4F9BE2;
 	color: white;
 	margin: auto;
-	height: 250px;
+	height: 240px;
 }
 
 .rect h1 {
 	display: inline-block;
-	margin: 100px;
+	margin: 130px;
 	font-size: 40px;
 	margin-top: 70px;
+}
+
+
+/* ----------------- WHAT DO WE OFFER SECTION ---------------- */
+
+
+
+.sometitle {
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	margin-bottom: 6px;
+	margin-top: 40px;
+}
+
+.sometitle h1 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+
+.title {
+	background: #4F9BE2;
+	padding: 10px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.sometitle-column {
+	width: 100%;
+}
+
+.container2 {
+	height: 170px;
+}
+
+
+.container2 p {
+	margin-bottom: 30px;
+	padding: 40px;
+}
+
+.sometitle-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 16px;
+}
+
+/*----------------- UNIVERSITIES ICONS ----------------*/
+
+
+
+
+.universities-icons {
+	margin-top: 100px;
+	background: #C5E9FF;
+	
+}
+
+.universities-icons-background {
+	width: 90%;
+	height: 220px;
+	margin: auto;
+	display: flex;
+}
+
+.universities-title {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 70px 0px 20px;
+}
+
+.universities-title h1 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.universities-icons-background img {
+	width: 10%;
+	display: inline-block;
+	margin: 40px;
+	margin-left: 70px;
+	margin-top: 60px;
+	
+	
+}
+
+
+
+.contact-us {
+	width: 60%;
+}
+
+
+form {
+	margin: auto;
+	
 }
