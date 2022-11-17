@@ -60,7 +60,7 @@
 				<div class="row">
 					<div class="column">
 						<div class="card">
-							<img src="Othmane-pic.jpg" alt="Othmane Boutayeb" style="width: 100%">
+							<img src="testimonial.jpg" alt="Othmane Boutayeb" style="width: 100%">
 							<div class="container">
 							<h2>Othman Boutayeb</h2>
 							<h4>CEO & Founder</h4>
@@ -72,7 +72,7 @@
 					</div>
 					<div class="column">
 						<div class="card">
-							<img src="Abdeljalil-pic.jpg" alt="Abdeljalil Jouhrani" style="width: 100%">
+							<img src="testimonial.jpg" alt="Abdeljalil Jouhrani" style="width: 100%">
 							<div class="container">
 							<h2>Abdeljalil Jouhrani</h2>
 							<h4>Senior Manager</h4>
@@ -85,7 +85,7 @@
 					
 					<div class="column">
 						<div class="card">
-							<img src="Malak-pic.jpg" alt="Malak Canada" style="width: 100%">
+							<img src="testimonial.jpg" alt="Malak Canada" style="width: 100%">
 							<div class="container">
 							<h2>Malak Canada</h2>
 							<h4>Canada Branch Manager</h4>
@@ -162,13 +162,13 @@
 			<p style="margin-top: 20px;">Thank you for choosing us!</p>
 			</div>
 			<div class="universities-icons-background">
-				<img src="Harvard-logo.png" alt="Othmane Boutayeb">
-				<img src="american-university-logo.png" alt="Othmane Boutayeb">
-				<img src="ohio-university-logo.png" alt="Othmane Boutayeb">
-				<img src="Harvard-logo.png" alt="Othmane Boutayeb">
-				<img src="american-university-logo.png" alt="Othmane Boutayeb">
-				<img src="ohio-university-logo.png" alt="Othmane Boutayeb">
-			</div>
+				<img src="american-university.png" alt="Othmane Boutayeb">
+				<img src="american-university.png" alt="Othmane Boutayeb">
+				<img src="american-university.png" alt="Othmane Boutayeb">
+				<img src="american-university.png" alt="Othmane Boutayeb">
+				<img src="american-university.png" alt="Othmane Boutayeb">
+				<img src="american-university.png" alt="Othmane Boutayeb">
+			</div><br><br><br><br><br>
 			
 		</section>
 		
@@ -177,18 +177,37 @@
 		
 		<section class="contact-us">
 		
-			<div class="contact-us-title">
-				<h1>CONTACT US</h1>
-			</div>
-			<form action="">
-				<label for="name">Name</label><br>
-				<input type="text" id="name" name="name">
-				<label for"email">Email</label>
-				<input type="email" id="email" name="name">
-				<label for="text">Phone</label>
-				<input type="email" id="email" name="name"><br>
-				<label for="message">Message</label><br>
-				<textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+			<form onsubmit="sendEmail(); reset(); return false;">
+				<h1>Let Us Help You in Your Journey!</h1>
+				<input type="text" id="name" placeholder="Your Name" required>
+				<input type="email" id="email" placeholder="Email id" required>
+				<input type="tel" id="phone" placeholder="phone no." required>
+				<textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+				<button type="submit"><span></span>Send</button>
 			</form>
 			
+		</section>
+
+
+
+
+		<!------------------- Footer -------------->
+		<section class="footer">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+			<div class="icons">
+				<a href="https://www.facebook.com/MoroccoUSAEdu" title="Facebook Link"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/morocco.usa.education/" title="Instagram Link"><i class="fa-brands fa-instagram"></i></a>
+				<a href="" title="Twitter Link"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/company/moroccousaeducation/" title="Linkedin Link"><i class="fa-brands fa-linkedin-in"></i></a>
+				<a href="https://www.youtube.com/channel/UCD1M7JF97PJB77IVnKYHiRQ" title="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
+			</div>
+		
+			<p>Made with <i class="fa-solid fa-heart"></i> by Abdeljalil Jouhrani</p>
+
 		</section>
