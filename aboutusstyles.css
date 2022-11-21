@@ -1,7 +1,19 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+
+/*----------------- ABOUT US TOP SECTION -----------------*/
+
+.about-section {
+	width: 100%;
+	height:90vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
+	background-size: cover;
+	background-position: center;
+	
 }
 
 nav {
@@ -24,7 +36,6 @@ nav {
 	margin: 0 20px;
 	position: relative;
 	font-family: 'Lato', sans-serif;
-	
 }
 
 .nav-links ul li a{
@@ -32,14 +43,15 @@ nav {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
 }
 
 .nav-links ul li::after {
 	content: '';
 	height: 3px;
 	width: 0%;
-	background: #f44336;
+	background: #4F9BE2;
 	position: absolute;
 	left: 0;
 	bottom: -10px;
@@ -59,6 +71,51 @@ nav {
 	cursor: pointer;
 	display: none;
 }
+
+.about-section-content {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	color: #fff;
+	}
+
+.about-section-content h1 {
+	font-size: 60px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.about-section-content p {
+	margin: 30px auto;
+	font-weight: 100;
+	line-height: 25px;
+	font-size: 28px;
+	line-height: 50px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+.about-section button {
+	background: #4F9BE2;
+	width: 300px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	
+}
+
+.about-section button:hover {
+	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
+}
+
 
 @media(max-width: 700px) {
 	.logo {
@@ -100,72 +157,56 @@ nav {
 		padding: 30px;
 		margin-top: 4em;
 	}
-	
-}
-/* ABOUT US TOP SECTION */
-
-.about-section {
-	width: 100%;
-	height:90vh;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
-	background-size: cover;
-	background-position: center;
-	
-}
-
 .about-section-content {
-	width: 100%;
-	position: absolute;
-	top: 42%;
-	transform: translateY(-50%);
+	width: 70%;
+	position: relative;
 	text-align: center;
 	color: #fff;
-	background:;
-	font-family: 'Lato', sans-serif;
+	padding: 20px 80px 0px 70px;
 	}
 
 .about-section-content h1 {
-	font-size: 60px;
+	font-size: 40px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 0px;
+	margin-bottom: 30px;
 }
 
 .about-section-content p {
-	margin: 30px auto;
-	font-weight: 100;
-	line-height: 25px;
-	font-size: 28px;
-	line-height: 50px;
+	margin: auto;
+	font-weight: 500;
+	line-height: 35px;
+	font-size: 16px;
 	color: #fff;
 	font-family: 'Lato', sans-serif;
 }
 
 .about-section button {
-	display: block;
-	text-decoration: none;
-	color: #fff;
-	padding: 12px 30px;
 	background: #4F9BE2;
-	cursor: pointer;
-	align-items: center;
-	font-family: 'Lato', sans-serif;
-	margin: 30px auto;
-	border: #fff;
+	width: 300px;
+	text-align: center;
 	border-radius: 25px;
-	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin: 20px 0px;
+	padding: 15px 20px;
 }
 
 .about-section button:hover {
 	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
 }
+	
+}
 
 
-/* MIDDLE SECTION */
+/* ---------------------------------TEAM MEMBERS --------------------*/
 
 
-.middle {
+.team-members {
 	text-align: center;
 	margin: auto;
 	width: 60%;
@@ -174,12 +215,12 @@ nav {
 	
 }
 
-.middle-header {
+.team-members-header {
 	padding: 20px;
 }
 
 
-.middle-header p {
+.team-members-header p {
 	text-align: center;
 	margin-top: 60px;
 	margin-bottom: 50px;
@@ -198,36 +239,34 @@ nav {
   
 }
 
-
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
 
-.container {
+.team-members-container {
   padding: 5px 16px 8px;
 }
 
-.container h2 {
+.team-members-container h2 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-family: 'Lato', sans-serif;
 }
 
-.container h4{
+.team-members-container h4{
 	margin-bottom: 20px;
 	color: #8E8E8E;
 }
 
-.container p {
+.team-members-container p {
 	margin-bottom: 20px;
 	text-align: left;
 	font-family: 'Lato', sans-serif;
 }
 
-.container button {
+.team-members-container button {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -243,13 +282,28 @@ nav {
 	width: 100%;
 }
 
-.container button:hover {
+.team-members-container button:hover {
 	box-shadow: 0 0 4px 0px rgb(0, 0, 0, 0.2);
 }
 
+
+@media(max-width: 700px) {
+.row {
+	flex-direction: column;
+}
+
+.column {
+	flex-basis: 300px;
+	margin-bottom: 16px;
+  	padding: 0 8px 10px;
+}
+
+}
+
+
 /* ----------------- STATISTICS SECTION ---------------- */
 
-.rect {
+.stats-rect {
 	padding: 20px;
 	text-align: center;
 	background-color: #D5F3FE;
@@ -258,7 +312,7 @@ nav {
 	height: 240px;
 }
 
-.rect h1 {
+.stats-rect h1 {
 	display: inline-block;
 	margin: 130px;
 	font-size: 40px;
@@ -268,12 +322,34 @@ nav {
 	text-shadow: 1px 1px #80869A;
 }
 
+@media(max-width: 700px) {
 
-/* ----------------- What is Special About MUE ---------------- */
+.stats-rect {
+	padding: 20px;
+	text-align: center;
+	background-color: #D5F3FE;
+	color: white;
+	margin: auto;
+	height: 700px;
+}
+
+.stats-rect h1 {
+	display: block;
+	margin: auto;
+	font-size: 40px;
+	margin-top: 100px;
+	font-family: 'Lato', sans-serif;
+	color: #192F7A;
+	text-shadow: 1px 1px #80869A;
+}
+
+}
+
+/* ----------------- WHAT IS SPECIAL ABOUT MUE ---------------- */
 
 
 
-.sometitle {
+.special-mue {
 	text-align: center;
 	margin: auto;
 	width: 60%;
@@ -281,22 +357,23 @@ nav {
 	margin-top: 80px;
 }
 
-.sometitle-header {
+.special-mue-header {
 	padding: 20px;
 }
 
-.sometitle-header p {
+.special-mue-header p {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 50px;
 	font-family: 'Lato', sans-serif;
 	font-size: 36px;
+	font-weight: 500;
 }
 
 
 
 
-.title {
+.special-mue-icon {
 	text-shadow: 1px 1px #80869A;
 	padding: 80px 0px 0px;
 	height: 20px;
@@ -306,41 +383,39 @@ nav {
 	font-family: 'Lato', sans-serif;
 }
 
-.sometitle-column {
+.special-mue-column {
 	width: 100%;
 }
 
-.container2 {
+.special-mue-container2 {
 	height: 170px;
 }
 
 
-.container2 p {
+.special-mue-container2 p {
 	
 	margin-top: 60px;
 	padding: 100px 40px 0px;
 	font-family: 'Lato', sans-serif;
 }
 
-.sometitle-card {
+.special-mue-card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin: 16px;
 	height: 400px;
 	
 }
 
-/*----------------- UNIVERSITIES ICONS ----------------*/
+/* ------------------------------ CEO BIO ----------------------------- */
 
 
-
-
-.universities-icons {
+.ceo-bio {
 	margin-top: 100px;
 	background: #D5F3FE;
 	height: 300px;
 }
 
-.universities-title img {
+.ceo-bio-othman img {
 	height: 200px;
 	width: 200px;
 	margin-left: 530px;
@@ -350,14 +425,8 @@ nav {
 	float: left;
 }
 
-.universities-icons-background {
-	width: 90%;
-	height: 220px;
-	display: flex;
-	margin: auto;
-}
 
-.universities-title {
+.ceo-bio-othman {
 	text-align: center;
 	font-size: 24px;
 	font-weight: 400;
@@ -367,7 +436,7 @@ nav {
 .othmane-say {
 	text-align: left;
 	margin-left: 780px;
-	margin-top: 25px;
+	margin-top: 32px;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	padding: 0px 500px 0px 0px;
@@ -377,18 +446,54 @@ nav {
 .othmane-say h4{
 	margin-top: 20px;
 	color: #192F7A;
+	font-size: 24px;
 }
 
-.universities-icons-background img {
-	width: 10%;
-	display: inline-block;
+@media(max-width: 700px) {
+.ceo-bio {
+	margin-top: 80px;
+	background: #D5F3FE;
+	height: 600px;
+	padding: 50px 0px;
+}
+.ceo-bio-othman img {
+	height: 200px;
+	width: 200px;
 	margin: auto;
-	margin-left: 70px;
-	margin-top: 60px;
-	margin-bottom: 20px;
+	border-radius: 75%;
+	position: relative;
+	float: none;
+}
+
+.ceo-bio-othman {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 50px 0px 20px;
+}
+
+.othmane-say {
+	text-align: center;
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	padding: 30px 110px 500px 120px;
+	justify-content: center;
+}
+
+.othmane-say h4{
+	margin-top: 20px;
+	color: #192F7A;
+	font-size: 24px;
 }
 
 
+
+}
+
+
+
+/* ------------------------- CONTACT US ------------------------------- */
 
 .contact-us {
 	width: 100%;
@@ -426,7 +531,7 @@ form h3 {
 }
 
 form input {
-	border: 0;
+	border: 0px;
 	margin: 10px 0;
 	padding: 20px;
 	outline: none;
@@ -471,6 +576,7 @@ form button:hover {
 	box-shadow: 0 0 4px 0px rgb(0, 0, 0, 0.2);
 }
 
+/* ----------------------------- Footer ------------------------------ */
 
 .footer {
 	width: 100%;
@@ -520,12 +626,12 @@ form button:hover {
 }
 
 .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-linkedin-in, .fa-youtube {
-	color: #f44336;
+	color: #192F7A;
 	margin: 0 13px;
 	cursor: pointer;
 	padding: 18px 0;
 }
 
 .fa-heart {
-	color: #f44336;
+	color: #192F7A;
 }
