@@ -1,8 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 /*----------------- ABOUT US TOP SECTION -----------------*/
@@ -35,16 +34,15 @@ nav {
 	display: inline-block;
 	margin: 0 20px;
 	position: relative;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .nav-links ul li a{
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .nav-links ul li::after {
@@ -82,7 +80,7 @@ nav {
 
 .about-section-content h1 {
 	font-size: 60px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 120px;
@@ -95,7 +93,7 @@ nav {
 	font-size: 28px;
 	line-height: 50px;
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .about-section button {
@@ -109,6 +107,7 @@ nav {
 	border: none;
 	color: #fff;
 	cursor: pointer;
+	font-family: 'DM Sans', sans-serif;
 	
 }
 
@@ -167,7 +166,7 @@ nav {
 
 .about-section-content h1 {
 	font-size: 40px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 0px;
@@ -180,7 +179,7 @@ nav {
 	line-height: 35px;
 	font-size: 16px;
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .about-section button {
@@ -194,6 +193,7 @@ nav {
 	cursor: pointer;
 	margin: 20px 0px;
 	padding: 15px 20px;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .about-section button:hover {
@@ -211,12 +211,13 @@ nav {
 	margin: auto;
 	width: 60%;
 	margin-bottom: 70px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	
 }
 
 .team-members-header {
 	padding: 20px;
+	font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -224,7 +225,7 @@ nav {
 	text-align: center;
 	margin-top: 60px;
 	margin-bottom: 50px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 36px;
 }
 
@@ -252,18 +253,19 @@ nav {
 .team-members-container h2 {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .team-members-container h4{
 	margin-bottom: 20px;
 	color: #8E8E8E;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .team-members-container p {
 	margin-bottom: 20px;
 	text-align: left;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .team-members-container button {
@@ -274,7 +276,7 @@ nav {
 	background: #192F7A;
 	cursor: pointer;
 	align-items: center;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	margin: auto;
 	border: #fff;
 	font-size: 16px;
@@ -317,7 +319,7 @@ nav {
 	margin: 130px;
 	font-size: 40px;
 	margin-top: 70px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	color: #192F7A;
 	text-shadow: 1px 1px #80869A;
 }
@@ -338,7 +340,7 @@ nav {
 	margin: auto;
 	font-size: 40px;
 	margin-top: 100px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	color: #192F7A;
 	text-shadow: 1px 1px #80869A;
 }
@@ -365,13 +367,10 @@ nav {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 36px;
 	font-weight: 500;
 }
-
-
-
 
 .special-mue-icon {
 	text-shadow: 1px 1px #80869A;
@@ -389,14 +388,14 @@ nav {
 
 .special-mue-container2 {
 	height: 170px;
+	font-family: 'DM Sans', sans-serif;
 }
 
 
 .special-mue-container2 p {
-	
 	margin-top: 60px;
 	padding: 100px 40px 0px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .special-mue-card {
@@ -405,6 +404,18 @@ nav {
 	height: 400px;
 	
 }
+
+
+@media(max-width: 700px) {
+	.special-mue-container2 p {
+	margin-top: 60px;
+	padding: 60px 40px 0px;
+	font-family: 'DM Sans', sans-serif;
+}
+
+}
+
+
 
 /* ------------------------------ CEO BIO ----------------------------- */
 
@@ -436,10 +447,10 @@ nav {
 .othmane-say {
 	text-align: left;
 	margin-left: 780px;
-	margin-top: 32px;
-	font-family: 'Lato', sans-serif;
+	margin-top: 15px;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 20px;
-	padding: 0px 500px 0px 0px;
+	padding: 0px 560px 0px 0px;
 	justify-content: center;
 }
 
@@ -447,6 +458,7 @@ nav {
 	margin-top: 20px;
 	color: #192F7A;
 	font-size: 24px;
+	font-family: 'DM Sans', sans-serif;
 }
 
 @media(max-width: 700px) {
@@ -475,7 +487,7 @@ nav {
 .othmane-say {
 	text-align: center;
 	margin: auto;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 18px;
 	padding: 30px 110px 500px 120px;
 	justify-content: center;
@@ -485,6 +497,7 @@ nav {
 	margin-top: 20px;
 	color: #192F7A;
 	font-size: 24px;
+	font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -506,7 +519,7 @@ nav {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 36px;
 }
 
@@ -526,8 +539,7 @@ form h3 {
 	color: #555;
 	font-weight: 800;
 	margin-bottom: 20px;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 form input {
@@ -537,9 +549,7 @@ form input {
 	outline: none;
 	background: #f5f5f5;	
 	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
-		
+	font-family: 'DM Sans', sans-serif;	
 }
 
 form textarea {
@@ -569,6 +579,7 @@ form button {
 	margin: auto;
 	margin-top: 40px;
 	width: 60%;
+	font-family: 'DM Sans', sans-serif;
 }
 
 form button:hover {
@@ -576,12 +587,29 @@ form button:hover {
 	box-shadow: 0 0 4px 0px rgb(0, 0, 0, 0.2);
 }
 
+@media(max-width: 700px) {
+	form textarea {
+	border: 0;
+	margin: 10px 0;
+	padding: 20px;
+	outline: none;
+	background: #f5f5f5;	
+	font-size: 16px;
+	min-height: 8em;
+	max-height: 8em;
+	min-width: 375px;
+	max-width: 375px;
+	}
+
+}
+
+
 /* ----------------------------- Footer ------------------------------ */
 
 .footer {
 	width: 100%;
 	text-align: center;
-	padding: 30px 0;
+	padding: 25px 0;
 	background: #D5F3FE;
 }
 
@@ -590,8 +618,7 @@ form button:hover {
 	display: inline-block;
 	margin: 0 20px;
 	position: relative;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	margin-bottom: 30px;
 }
 
@@ -599,9 +626,8 @@ form button:hover {
 	text-decoration: none;
 	color: #444444;
 	text-transform: uppercase;
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .footer ul li a::after {
@@ -634,4 +660,20 @@ form button:hover {
 
 .fa-heart {
 	color: #192F7A;
+}
+
+
+@media(max-width: 700px) {
+	.footer ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+	position: relative;
+	font-family: 'DM Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+
+
+
 }
